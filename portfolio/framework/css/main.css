@@ -1,6 +1,6 @@
-*{
+/**{
 	border: 1px solid red !important;
-}
+}*/
 
 *{
 	-webkit-box-sizing: border-box;
@@ -9,10 +9,18 @@
 	box-sizing: border-box;
 }
 
+*{
+	font-family: 'Lato', sans-serif;
+}
+
 @media only screen and (max-width: 1000px){
 	p{
 		display: none;
 	}
+}
+
+.grid{
+	max-width: 1000px;
 }
 
 .row{
@@ -63,4 +71,11 @@
 
 .col-11{
 	width: 91.66%;
+}
+
+hr{
+	color: #BCBBBB;
+	background-color: #BCBBBB;
+	height: 5px;
+	noshaded;
 }
