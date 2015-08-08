@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -35,7 +37,7 @@
       <div class="row text-center">
         <div class="col-md-4">
           <h3 class="text-uppercase">Appify</h3>
-          <img class="img-responsive" src="http://lorempixel.com/g/400/250/nature" alt="Appify image">
+          <img class="img-responsive" src="http://lorempixel.com/g/400/250/nature" alt="Appify image" data-toggle="modal" data-target="#project1">
           <p>www.github.com/Appify</p>
         </div>
         <div class="col-md-4">
@@ -47,6 +49,23 @@
           <h3 class="text-uppercase">Bokeh</h3>
           <img class="img-responsive" src="http://lorempixel.com/g/400/250/nature" alt="Bokeh image">
           <p>www.github.com/Bokeh</p>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://lorempixel.com/g/400/250/nature" alt="Appify image">
+            This was my first project in this class. I learned a lot about HTML and CSS.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
     </div>
